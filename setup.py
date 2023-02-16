@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="auth_gosuslugi",
-    version="0.0.1",
+    version="0.0.2",
     author="Daniil Agniashvili",
     author_email="dortos123456@gmail.com",
     description="Authorization on sites through gosuslugi using requests.",
@@ -20,5 +20,5 @@ setuptools.setup(
         "Operating System :: POSIX :: Linux"
     ],
     install_requires=['requests','urllib3', 'pip_system_certs'],
-    python_requires='==3.9',
+    python_requires='>3.5',
 )
